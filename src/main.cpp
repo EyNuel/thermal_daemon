@@ -395,7 +395,7 @@ int main(int argc, char *argv[])
 	g_option_context_add_main_entries(opt_ctx, options, NULL);
 
 	g_option_context_set_summary(opt_ctx, _(
-	"Thermal monitors all temerature sensor and decide best action based on the temrature readings and user preferences."));
+	"Monitors all temperature sensors and decides best action based on the temperature readings and user preferences."));
 
 	success = g_option_context_parse(opt_ctx, &argc, &argv, NULL);
 	g_option_context_free(opt_ctx);
